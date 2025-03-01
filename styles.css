@@ -1,0 +1,624 @@
+
+a:hover {background-color:black;
+         transition:300ms;
+		 border-radius:30px;			 
+}	
+
+
+
+a:link {
+	color:white;
+	text-decoration:none;
+}
+
+
+a:active {
+	color:grey;
+	text-decoration:none
+}
+
+a:visited{
+	color:white;
+	text-decoration:none;
+
+}
+
+/* Reset some default styles */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+  color:white;;
+
+}
+
+h2{background-color:black;
+	border-radius:15px;
+	color:white}
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: tw cen mt;
+  color:black;
+  background:black;
+  border: none;
+  outline: none;
+}
+.press{
+	align-items:center;
+	font-size:70px;
+	text'decoration:none;
+	background-color:black;
+	color:black;
+}
+    .btn {
+      border-color: grey;
+      font-weight: bold;
+      margin-top: 2rem;
+	  color:black;
+    }
+    .btn :hover {
+      background-color: black;
+      border-color: black;
+    }
+
+header {
+  background-color:grey;
+  padding: 20px;
+  
+}
+
+
+
+#myInput {
+  background-image: url(search.png); /* Add a search icon to input */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 170px; /* Full-width */
+  font-size: 18px; /* Increase font-size */
+  padding:1px; /* Add some padding */
+  border-radius:30px;
+  font-family:Tw Cen Mt;
+  color: Green;
+  align:center;
+}
+
+
+button{  border-radius:60px;}
+
+
+
+.brand{
+	text-decoration:none;
+	height:60px;
+	color:white;
+}
+nav ul {
+  list-style: none;
+  text-align:center;
+  list-style-type: none; 
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  list-style-type: none; 
+  
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+   list-style-type: none; 
+}
+
+main {
+  padding: 20px;
+  background-image: url("C:\Users\PEARL TEBAGANO\OneDrive\pearl\pearl\COLLECTIONS\Black Warner.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero {
+background-image: url("C:\Users\PEARL TEBAGANO\OneDrive\pearl\pearl\COLLECTIONS\Black Warner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 100px 0;
+  color:white;
+  font-size:24px;
+  font-family:Helvetica, sans-serif;
+}
+.logo{
+	font-height:40px;
+	color:blue;
+}
+header nav ul li a:hover {
+	color:black;
+	
+}
+.featured,
+.news {
+  margin-bottom: 20px;
+}
+
+/*used for movies*/
+
+.movies {
+  margin-bottom: 20px;
+}
+
+.movie-grid {
+  display: grid;
+  border-radius: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+  color:white;
+  
+}
+
+.movie-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.movie-card h3 {
+  margin-top: 10px;
+}
+
+.movie-card p {
+  margin-top: 5px;
+}
+
+/* for tv shows */
+
+.tv-shows {
+  margin-bottom: 20px;
+}
+
+.tv-show-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 100px;
+}
+
+.tv-show-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  width:230px;
+}
+
+.tv-show-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.tv-show-card h3 {
+  margin-top: 10px;
+}
+
+.tv-show-card p {
+  margin-top: 5px;
+}
+
+/* for games */
+
+.games {
+  margin-bottom: 20px;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.game-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.game-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.game-card h3 {
+  margin-top: 10px;
+}
+
+.game-card p {
+  margin-top: 5px;
+}
+
+/* Collections */
+
+
+.collections {
+  margin-bottom: 20px;
+}
+
+.collection-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.collection-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.collection-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.collection-card h3 {
+  margin-top: 10px;
+}
+
+.collection-card p {
+  margin-top: 5px;
+}
+
+/* Feedback */
+
+.feedback {
+  margin-bottom: 20px;
+}
+
+.feedback-form div {
+  margin-bottom: 10px;
+}
+
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.feedback-form textarea {
+  resize: vertical;
+}
+
+.feedback-form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.feedback-form button:hover {
+  background-color: #555;
+}
+
+
+/* Footer */
+footer {
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  color:white;
+  list-style-type: none; 
+}
+
+/* Styles for buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:black;
+  color:black;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #c00;
+}
+[
+
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+
+/***movies***/
+
+.lifestyle{
+
+  padding: 100px 40px;
+
+  color: white;
+
+
+  align:inline-block;
+
+}
+
+ 
+
+.attractions{
+
+font-family: "Poppins";
+
+display: flex;
+
+overflow-x: hidden;
+
+}
+
+.attractions .container{
+
+width: 100%;
+
+margin: 40px;
+
+border-radius: 4px;
+
+background: white;
+
+}
+
+.img-container img{
+
+width: 100%;
+
+height: 100%;
+
+border-radius: 4px 4px 0px 0px;
+
+}
+
+.content-container{
+
+padding: 10px 20px;
+
+}
+
+.content-container h1{
+
+font-size: 24px;
+
+color: white;
+
+}
+
+.content-container h2{
+
+background: black;
+
+width: 80px;
+
+font-size: 8px;
+
+padding: 5px;
+
+color: white;
+
+text-align: center;
+
+letter-spacing: 0.08rem;
+
+font-weight: 700;
+
+}
+
+.content-container p{
+
+color: white;
+
+font-weight: 700;
+
+font-size: 12px;
+
+letter-spacing: 0.02rem;
+
+line-height: 1.3rem;
+
+margin-bottom: 30px;
+
+}
+
+ 
+
+@media (max-width: 1040px) {
+
+.attractions {
+
+  flex-direction: column-reverse;
+
+}
+
+.attractions .container {
+
+  width: 800px;
+
+}
+
+}
+
+ 
+
+@media (max-width: 900px) {
+
+.attractions {
+
+  flex-direction: column-reverse;
+
+}
+
+.attractions .container {
+
+  width:600px ;
+
+  margin-right: 80px;
+
+}
+
+.name{
+	button-spacing:3px;
+}
+
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+}
+
+div {
+  border-radius: 5px;
+  background-color: black;
+  padding: 20px;
+}
+
+
+
+#vidd {padding-bottom:10px;
+       	}
+	
+	
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container1 {
+  border-radius: 5px;
+  background-color: black;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+form {
+        background-color: black;
+        width: 100%;
+        height: 60%;
+        border-radius: 5px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+		display: inline-block;
+  padding: 10px 20px;
+  background-color:black;
+  color:black;
+  text-decoration: none;
+  border-radius: 30px;
+      }
+
+      input {
+        all: unset;
+        font: 16px system-ui;
+        color: #fff;
+        height: 100%;
+        width: 100%;
+        padding: 6px 10px;
+      }
+
+      ::placeholder {
+        color: #fff;
+        opacity: 0.7; 
+      }
+
+      svg {
+        color: #fff;
+        fill: currentColor;
+        width: 24px;
+        height: 24px;
+        padding: 10px;
+      }
+
+      button {
+        all: unset;
+        cursor: pointer;
+        width: 44px;
+        height: 44px;
+      }

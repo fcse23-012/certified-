@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Warner Bros. | Welcome</title>
+  <link rel="icon" href="logo.jpg" type="image/icon type">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+   <script
+      src="https://kit.fontawesome.com/a59b9b09ab.js"
+      crossorigin="anonymous"
+    ></script>
+  <style>
+  
+
+  body {
+  background:url('logo.jpg');
+  background-repeat: no-repeat;
+  
+}
+
+header {
+  background-color:gray;
+  padding-top: 10px;
+  
+  }
+  
+  footer {
+  opacity: 1;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  color:white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+
+}
+
+</style>
+
+
+  <header>
+   <p class="logo">
+     <a href="index.html" class="brand"><img src="C:\Users\PEARL TEBAGANO\OneDrive\pearl\pearl\COLLECTIONS\Black Warner.png" height="50" width="70" ><p style="text-align: center,padding-right:20px">WARNER BROS</p>
+   </p>
+  
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="movies2.html">Movies</a></li>
+        <li><a href="tvshows.html">TV Shows</a></li>
+        <li><a href="games.html">Games & Apps</a></li>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+	
+	</header>
+	
+</head>
+<body style="font-family:tw cen mt">
+
+	<form id="form"> 
+  <input type="search" id="query" name="q" placeholder="Search...">
+  <button>
+    <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+    </button>
+
+</form>
+		
+		
+<script>
+      const f = document.getElementById('form');
+      const q = document.getElementById('query');
+      const google = 'https://www.google.com/search?q=site%3A+';
+      const site = 'pagedart.com';
+
+      function submitted(event) {
+        event.preventDefault();
+        const url = google + site + '+' + q.value;
+        const win = window.open(url, '_blank');
+        win.focus();
+      }
+
+      f.addEventListener('submit', submitted);
+    </script>	
+</body>
+
+<footer>
+<div class="footer-column">
+        <h3>About Us</h3>
+        <p>Warner Bros is a leading entertainment company that produces and distributes films, television shows, and games.</p>
+      </div>
+  
+      <div class="footer-column">
+        <h3>Contact Information</h3>
+        <p>Email: info@warnerbros.com</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Warner Bros. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+</html>
+
+  
